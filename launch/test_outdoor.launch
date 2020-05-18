@@ -4,6 +4,7 @@
 
   <node pkg="lio" type="lio_processor_node" name="lio_processor" output="log">
     <param name="rad_diff" type="double" value="0.2" />
+    <param name="sensor_type" type="int" value="16" />
   </node>
  
   <node pkg="lio" type="lio_estimator_node" name="lio_estimator" output="screen">
